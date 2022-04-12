@@ -38,9 +38,13 @@ os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulat
 ## Contributors
 
 Cody Schroeder, codeman@uw.edu
+
 Hilary Willis, 
+
 Theo Prentice,
-Aaron Bumgarner, 
+
+Aaron Bumgarner, aaron.j.bumgarner@gmail.com
+
 Aranda Furth, arandafurth@gmail.com
 
 
