@@ -2,28 +2,30 @@
 
 ## Financial Planning with APIs and Monte Carlo Simulations
 
-We are approached by a client who would like to invest $500,000 over the next 15 years in order to plan for her retirement. She is debating on whether to purchase a rental home in her local market (Seattle, Tacoma, Everett) and renting it out for the entire time versus investing the money in 3 possible stock & bond/crypto portfolio options (50/50, 60/40, 70/30). She would like us to analyze possible outcomes in order to maximize the return on her investment. 
+We are approached by a client who would like to invest $500,000 over the next 15 years in order to plan for her retirement. She is debating on whether to purchase a home in her local market (Seattle, Tacoma, Everett), stocks & bonds, or crypto. She would like us to analyze possible outcomes in order to maximize the return on her investment.
+
 
 User Story:
 
-As an investor I want to invest $500k in either real estate or stocks and bonds/crypto (split) so that I can maximize on the return in 15 years.
+As an investor I want to invest $500k in either real estate, stocks and bonds, or crypto so that I can maximize on the return in 15 years.
 
 Acceptance Criteria:
 
-Given the analysis on real estate markets vs stocks and bonds/crypto (split), when the ROI is higher in one of the portfolio options than we would recommend the portfolio to the client. 
+Given the analysis on real estate markets, stocks and bonds, and crypto, when the ROI is higher in one of the portfolio options then we would recommend the portfolio to the client.
 
-We plan to analyze historical data of real estate, crypto, and stock/bonds with Monte Carlo simulations to propose different investment portfolios to the client in order to estimate possible outcomes.
+
+We plan to analyze historical data of real estate by getting an annual appreciation rate for neighborhoods in Seattle, Tacoma, and Everett and then applying that to the initial investment. We will analyze crypto and stock/bonds with Monte Carlo simulations to propose different investment portfolios to the client in order to estimate possible outcomes.
+
 
 
 ## Technologies
 
 This project is written in python. The required libraries in order to use the application are: 
-
-![Import libraries](link to image)
-
+os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulation from MCForecastTools, %matplotlib inline, Path from pathlib, and hvplot.pandas.
 
 
-## Example Simulations
+
+## Examples
 
 ![MC_RealEstate](link to image)
 
