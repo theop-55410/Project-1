@@ -27,11 +27,13 @@ os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulat
 
 ## Examples
 
-![MC_RealEstate](link to image)
+![RealEstate](https://github.com/theop-55410/Project-1/blob/main/Images/RE1.jpg)
 
-![MC_Crypto](link to image)
+![RealEstate2](https://github.com/theop-55410/Project-1/blob/main/Images/RE2.jpg)
 
-![MC_StockBonds](link to image)
+![MC_StockBonds](https://github.com/theop-55410/Project-1/blob/main/Images/SB1.jpg)
+
+![MC_StockBonds](https://github.com/theop-55410/Project-1/blob/main/Images/C2.jpg)
 
 
 
@@ -39,9 +41,9 @@ os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulat
 
 Cody Schroeder, codeman@uw.edu
 
-Hilary Willis, 
+Hilary Willis, hilarywillis@gmail.com
 
-Theo Prentice,
+Theo Prentice, theoprentice14@gmail.com
 
 Aaron Bumgarner, aaron.j.bumgarner@gmail.com
 
