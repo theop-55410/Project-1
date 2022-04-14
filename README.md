@@ -36,6 +36,17 @@ os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulat
 ![MC_StockBonds](https://github.com/theop-55410/Project-1/blob/main/Images/C2.jpg)
 
 
+## Analysis Summary
+
+Real estate: Based on historical data analysis,  Central Seattle provided the greatest amount of annual appreciation at just over 15%. If the investor chooses to invest their $500,000 into the real estate market in Central Seattle, we estimate their investment would be worth approximately $1,133,327 at the end of a 15 year ownership period.
+
+Stocks and bonds: There is a 95% chance that an initial investment of $500,000 in the portfolio over the next 15 years will end within in the range of $1,626,961.92 and $6,270,274.26.
+
+Crypto: There is a 95% chance that an initial investment of $500,000 in the portfolio over the next 15 years will end within in the range of $53,063,020,989,972,864.00 and $754,312,303,589,329,600,512.00.
+
+DISCLAIMER: Although this result presents potentially fantastic news, it’s important to note that these forecasted return values are based on only three years of historical price data. The forecast simulates more variability than the data that the simulation is based on includes. In general, it’s ideal to supply one year of historical data for each year of simulated data. If we simulate using only small amounts of data during a recent time when markets are booming, or instead falling precipitously, a Monte-Carlo Analysis will inadvertently extrapolate this temporary market movement too far into the future. Getting data over a longer time period mitigates this effect. Due to the limitations of the Alpaca API, however, we can typically produce just three full years of historical data.
+
+
 
 ## Contributors
 
