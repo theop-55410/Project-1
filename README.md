@@ -38,7 +38,7 @@ os, requests, json, pandas, load_dotenv from dotenv, alpaca_trade_api, MCSimulat
 
 ## Analysis Summary
 
-Real estate: Based on historical data analysis,  Central Seattle provided the greatest amount of annual appreciation at just over 15%. If the investor chooses to invest their $500,000 into the real estate market in Central Seattle, we estimate their investment would be worth approximately $1,633,327 at the end of a 15 year ownership period.
+Real estate: Based on historical data analysis,  Central Seattle provided the greatest amount of annual appreciation at just over 15%. If the investor chooses to invest their $500,000 into the real estate market in Central Seattle, we estimate their investment would be worth approximately $1,133,327 at the end of a 15 year ownership period.
 
 Stocks and bonds: There is a 95% chance that an initial investment of $500,000 in the portfolio over the next 15 years will end within in the range of $1,626,961.92 and $6,270,274.26.
 
