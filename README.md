@@ -46,7 +46,9 @@ Crypto: There is a 95% chance that an initial investment of $500,000 in the port
 
 DISCLAIMER: Although this result presents potentially fantastic news, it’s important to note that these forecasted return values are based on only three years of historical price data. The forecast simulates more variability than the data that the simulation is based on includes. In general, it’s ideal to supply one year of historical data for each year of simulated data. If we simulate using only small amounts of data during a recent time when markets are booming, or instead falling precipitously, a Monte-Carlo Analysis will inadvertently extrapolate this temporary market movement too far into the future. Getting data over a longer time period mitigates this effect. Due to the limitations of the Alpaca API, however, we can typically produce just three full years of historical data.
 
+## Installation Instructions
 
+In your computer's terminal or git bash, create a new blank directory. Clone this repository using "git clone" and then paste the repository link, which should be something like "https://github.com/theop-55410/Project-1.git", and then press enter. Make sure in the Stock and Bond files to either manually code an api key into the files or use the os.getenv() functionality we already have in the files to fetch an api key from a .env file with the api keys assigned to specific variable names.
 
 ## Contributors
 
